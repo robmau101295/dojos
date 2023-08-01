@@ -1,0 +1,11 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+.fluentform {
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box!important;
+}

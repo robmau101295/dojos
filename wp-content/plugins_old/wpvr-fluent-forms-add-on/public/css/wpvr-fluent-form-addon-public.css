@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+.wpvr-hotspot-tweak-contents-wrapper,
+.wpvr-hotspot-tweak-contents-wrapper * {
+    box-sizing: border-box!important;
+}
+
+.wpvr-hotspot-tweak-contents-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    z-index: 99;
+    width: 80%;
+    max-width: 980px;
+}
+
+.wpvr-hotspot-tweak-contents-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wpvr-hotspot-tweak-contents {
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.pano-wrap .wpvr-hotspot-tweak-contents-wrapper .cross {
+    right: -4px;
+}

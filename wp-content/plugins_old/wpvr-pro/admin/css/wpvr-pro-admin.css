@@ -1,0 +1,488 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ 
+/* ---------License tab style------------ */
+.wpvr-license-wrapper div {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wpvr-btn {
+    border-radius: 5px;
+    border: none;
+    background-color: #201cfe;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 30px;
+    box-shadow: none;
+    margin-top: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.wpvr-btn:hover {
+    background: #5754d6;
+    color: #fff;
+}
+.wpvr-btn:focus{
+    outline: none;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+.wpvr-license-wrapper {
+    box-sizing: border-box;
+    background: #fff;
+    padding: 60px 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: calc(100% - 20px);
+}
+.wpvr-license-wrapper .wpvr-license-filed {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.wpvr-license-wrapper .wpvr-license-filed .field-area {
+    max-width: 930px;
+    width: 100%;
+    border-right: 1px solid #eee;
+}
+.wpvr-license-wrapper .wpvr-license-filed .promo-text-area {
+    display: flex;
+    margin-left: -50px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area {
+    margin-left: 50px;
+    max-width: 350px;
+    position: relative;
+    padding-left: 60px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area .icon {
+    background-color: #f0f1f3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+.wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area P {
+    font-size: 16px;
+    color: #a8a7be;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area {
+    display: flex;
+    flex-flow: row;
+    margin-top: 70px;
+    max-width: 785px;
+    width: 100%;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field {
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field label {
+    font-size: 15px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field input {
+    width: calc(100% - 110px);
+    border: 1px solid #ddd;
+    box-shadow: none;
+    outline: none;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field input:focus {
+    outline: none;
+    border-color: #201cfe;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field .hints {
+    width: 100%;
+    margin-left: 103px;
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    color: #a8a7be;
+    margin-top: 2px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .hints .wpvr-license-valid p {
+    color: #444;
+    margin: 0;
+    font-weight: 500;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .btn-area {
+    position: relative;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .btn-area .vr-notice {
+    position: absolute;
+    top: 52px;
+    left: 4px;
+    text-transform: capitalize;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .btn-area .wpvr-btn {
+    border-radius: 5px;
+    padding: 0 22px;
+    height: 50px;
+    width: 170px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .input-field-area .btn-area .lnc-notice {
+    color: green;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 8px;
+    position: absolute;
+    bottom: -24px;
+    left: -4px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .logo-area {
+    width: 350px;
+    text-align: center;
+    border: 1px solid #201cfe;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 15px;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 auto;
+}
+.wpvr-license-wrapper .wpvr-license-filed .logo-area .wpvr-logo {
+    margin: 0 auto 23px;
+}
+.wpvr-license-wrapper .wpvr-license-filed .logo-area .manage-license {
+    border-radius: 5px;
+    font-size: 15px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 24px;
+    background-color: #f0ecfb;
+    border: 1px solid #6e42d3;
+    color: #6e42d3;
+}
+.wpvr-license-wrapper .wpvr-license-filed .logo-area .manage-license:focus {
+    box-shadow: none;
+}
+.wpvr-license-wrapper p.submit {
+    padding: 0;
+    margin: 30px 0 0 103px;
+}
+.wpvr-license-wrapper p.submit .button {
+    border-radius: 5px;
+    border: none;
+    background-color: #201cfe;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 30px;
+    box-shadow: none;
+    margin-top: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.wpvr-license-wrapper p.submit .button:hover {
+    background: #5754d6;
+}
+.wpvr-license-wrapper p.submit .button:focus {
+    box-shadow: none;
+}
+
+
+
+/* ------------------- */
+.wpvr-doc-row {
+    display: flex;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.wpvr-doc-row .single-col {
+    background: #fff;
+    padding: 30px;
+    margin-right: 20px;
+    width: calc(100% / 3);
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    position: relative;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col:last-child,
+.wpvr-doc-row .single-col:last-child {
+    margin-right: 0;
+}
+.wpvr-doc-row .single-col .icon {
+    background-color: #f0f1f3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col h4,
+.wpvr-doc-row .single-col h4 {
+    font-size: 20px;
+    margin-bottom: 22px;
+    font-weight: 500;
+    margin-left: 53px;
+    margin-top: 9px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col p,
+.wpvr-doc-row .single-col p {
+    font-size: 16px;
+    color: #a8a7be;
+    margin-bottom: 20px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .cl-btn,
+.wpvr-doc-row .single-col .cl-btn {
+    margin-top: auto;
+}
+.cubemap-upload div[class^="face"] {
+    margin-bottom: 30px;
+}
+
+/* ----------responsive style for license page------------ */
+@media only screen and (max-width: 1599px) {
+    .wpvr-license-wrapper .wpvr-license-filed .field-area {
+        max-width: 710px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .logo-area {
+        width: 280px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area {
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) {
+    .wpvr-license-wrapper {
+        padding: 30px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .field-area {
+        max-width: 640px;
+        border-right: none;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .wpvr-license-wrapper .wpvr-license-filed .field-area {
+        max-width: 510px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .promo-text-area {
+        margin-left: -30px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area {
+        margin-left: 30px;
+        padding-left: 0;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .promo-text-area .single-area .icon {
+        position: relative;
+        top: inherit;
+        left: inherit;
+        margin-bottom: 12px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area {
+        margin-top: 40px;
+    }
+
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field {
+        display: flex;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field label {
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field input {
+        width: calc(100% - 5px);
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area .input-field .hints {
+        margin-left: 0;
+    }
+    .wpvr-license-wrapper .wpvr-license-filed .input-field-area .btn-area {
+        padding-top: 28px;
+    }
+    .wpvr-license-wrapper p.submit {
+        margin: 30px 0 0 0;
+    }
+
+    .wpvr-addons .wpvr-addons-wrapper .single-col,
+    .wpvr-doc-row .single-col {
+        padding: 20px;
+    }
+    .wpvr-addons .wpvr-addons-wrapper .single-col .icon,
+    .wpvr-doc-row .single-col .icon {
+        top: 18px;
+        left: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .wpvr-license-wrapper {
+        padding: 20px;
+    }
+
+}
+
+
+
+/* ---------Addons tab style------------ */
+.wpvr-addons * {
+    box-sizing: border-box;
+}
+.wpvr-addons {
+    margin-top: 18px;
+}
+
+.wpvr-addons .section-title h1 {
+    margin: 0;
+}
+.wpvr-addons .section-title p {
+    font-size: 16px;
+    margin: 8px 0 0 0;
+}
+
+.wpvr-addons .wpvr-addons-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-right: 20px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col {
+    background: #fff;
+    padding: 30px;
+    margin-left: 20px;
+    width: calc(100% / 4 - 20px);
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wpvr-addons .wpvr-addons-wrapper .single-col .title-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .icon img {
+    background-color: transparent;
+    width: 60px;
+    height: auto;
+    display: block;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col h4 {
+    width: calc(100% - 60px);
+    margin: 0;
+    padding-left: 15px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .addon-description {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.wpvr-addons .wpvr-addons-wrapper .single-col form input.regular-text {
+    border: 1px solid #dae3fd;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+    height: 46px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #454545;
+    border-radius: 3px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col form .wpvr-btn {
+    margin-top: 15px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .wpvr-addon-license-data {
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .wpvr-addon-license-data p {
+    margin: 0!important;
+    font-size: 14px;
+    color: #333;
+}
+.wpvr-addons .wpvr-addons-wrapper .single-col .wpvr-addon-license-data p a {
+    color: #5754d6;
+}
+
+.floor-plan-background-color .floor-plan-background-color-title {
+    font-size: 18px;
+    display: flex;
+    color: #262626;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+
+.floor-plan .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+.floor-plan .floor-plan-right {
+    width: 50%;
+    padding-left: 15px;
+}
+@media only screen and (max-width: 1399px) {
+    .wpvr-addons .wpvr-addons-wrapper .single-col {
+        width: calc(100% / 3 - 20px);
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .wpvr-addons .wpvr-addons-wrapper .single-col {
+        width: calc(100% / 2 - 20px);
+    }
+
+}
+
